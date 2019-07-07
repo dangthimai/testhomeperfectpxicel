@@ -1,0 +1,38 @@
+html,body{
+  width: 100%;
+  font-size: 12pt;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+a{
+  color: gray;
+  text-decoration: none;
+}
+ul li{
+  text-decoration: none;
+  list-style: none;
+}
+.color--white{
+  color: white
+}
+.btn--orange{
+  color: white;
+  height: 40px;
+  align-items: flex-end;
+  line-height: 40px;
+  background: #f3a562;
+  text-align: center;
+
+}
+.color--weight{
+  color: #3c3c68;
+}
+.color--2{
+  color: #1100ff;
+}
+.color--green{
+  color: #11ff11;
+}
+.float{
+  float: left;
+}

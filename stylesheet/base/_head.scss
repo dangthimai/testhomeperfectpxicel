@@ -1,0 +1,250 @@
+header{
+  width: 100%;
+  background: white;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  display: flex;
+  padding-top: 38px;
+  justify-content: space-between;
+  align-items: center;
+  .header__left{
+   
+    img{
+      width: 81%;
+      @media only screen and (min-width: 767px) {
+        width: 68%;
+        margin-left: 15%;
+        margin-top: -5px;
+    }
+    }
+
+  }
+  .header__right{
+    width: 190px;
+    margin-top: -17px;
+    @media only screen and (min-width: 767px) {
+      display: none;
+  }
+  i{
+    color: gray;
+    font-size: 36pt;
+    margin-right: 25px;
+    width: 29%;
+    &.fa-bars{
+      .nav__hover{
+        width: 247px;
+        height: 645px;
+        z-index: 300;
+        background: #515050;
+        color:white;
+        display: none;
+        position: absolute;
+        right: 0px;
+        transform: rotate(180deg);
+        
+      }
+      &:hover .nav__hover{
+        display: block;
+      }
+      
+    }
+  }
+  }
+  .header__rightdes{
+    display: none;
+    @media only screen and (min-width: 767px) {
+      display: block;
+      text-align: right;
+      margin-top: 0px;
+      margin-right: 6%;
+      .rightdes__top{
+        margin-top: -16px;
+      
+  
+  
+    ul{
+    font-size: 10pt;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    li{
+      margin-right: 24px;
+      a{
+        i{
+          font-size: 15pt;
+          font-weight: 500;
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+
+  }
+  .rightdes__bottom ul{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+      margin-right: 23px;
+      margin-top: -3px;
+      
+      a{
+        font-size: 10pt;
+        color: #515050;
+        font-weight: 550;
+      }
+    }
+
+  }
+}
+}
+}
+
+.box__slide{
+  margin-top: -25px;
+ @media only screen and(min-width:768px){
+   height: 542px;
+ }
+  .slide__wrap{
+    position: relative;
+    @media only screen and(max-width:767px){
+    height: 669px;
+    }
+    .slide__item{
+      position: relative;
+      height: 100%;
+      .item__image{
+        width: 100%;
+        height: 100%;
+        img{
+          width: 100%;
+          height: 542px;
+          @media only screen and(max-width:767px){
+            height: 669px;
+            }
+        }
+      }
+      .item__body{
+        position: absolute;
+        top: 55%;
+        left: 5%;
+        font-size: 28pt;
+        font-weight: 600;
+        width: 75%;
+        @media only screen and(min-width:768px){
+          top: 59%;
+        left: 12%;
+        font-size: 19pt;
+        width: 53%;
+          }
+
+      }
+      .item__btn{
+      
+       position: absolute;
+       width: 42%;
+       top: 86%;
+       left: 5%;
+       font-size: 15pt;
+       @media only screen and(min-width:768px){
+        width: 17%;
+        top: 81%;
+        left: 11%;
+        font-size: 9pt;
+       }
+       .btn__left{
+         height: 60px;
+         line-height: 60px;
+       }
+      }
+    }
+    .btn__leftright{
+      width: 17%;
+      position: absolute;
+    
+      top: 87%;
+      right: 6%;
+      z-index: 2;
+      @media only screen and(min-width:768px){
+        width: 7%;
+      top: 93%;
+      right: 0%;
+      }
+      i{
+        font-size: 35pt;
+        background: white;
+        color: gray;
+        margin-left: -5px;
+        width: 50%;
+        height: 56px;
+        text-align: center;
+        @media only screen and(min-width:768px){
+          font-size: 20pt;
+          height: 35px;
+        }
+      }
+    }
+  }
+
+  .slide__text{
+    position: relative;
+    background: #232354;
+    overflow: hidden;
+    padding: 7%;
+    margin-left: -10px;
+    @media only screen and(min-width:768px){
+      padding: 5%;
+      margin-left: -3px;
+    }
+    h1{
+      font-size: 32pt;
+      margin-top: 1px;
+      @media only screen and(min-width:768px){
+      font-size: 28pt;
+      margin-top: -4px;
+      margin-left: -4px;}
+    }
+    p{
+      margin-top: -10px;
+      font-size: 20pt;
+      line-height: 34px;
+      @media only screen and(min-width:768px){
+      line-height: 29px;
+        margin-top: -2px;
+      font-size:12pt;}
+    }
+    .button__intro{
+      width: 46%;
+      height: 52px;
+      align-items: flex-end;
+      line-height: 52px;
+      text-align: center;
+      border: 1px solid white;
+      margin-top: 5%;
+      font-size: 14pt;
+      margin-left: 1px;
+      @media only screen and(min-width:768px){
+      width: 48%;
+      height: 34px;
+      line-height: 38px;
+      margin-top: 10%;
+      font-size: 8pt;
+      margin-left: -5px;}
+    }
+  }
+  @media only screen and (min-width: 767px) {
+    display: flex;
+    margin-top: 115px;
+    .slide__wrap{
+      width: 66%;
+      
+    }
+    .slide__text{
+width: 34%;
+    }
+}
+}
+
+//css cho body
+
+

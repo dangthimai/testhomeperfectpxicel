@@ -1,0 +1,208 @@
+.contact{
+  width: 100%;
+  z-index: 100;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  background: white;
+  height: 670px;   
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  
+  // transition: right 2s linear;
+  @media only screen and(min-width:768px){
+    top: 190px;
+    height: 100%;
+    right: -540px;
+    width: 580px;
+    background: none;
+  }
+  @media only screen and(max-width:767px){
+    left: 0px;
+    bottom: -583px;
+  }
+
+  .contact__us{
+    @media only screen and(max-width:767px){
+      width: 100%;
+      height: 87px;
+      line-height: 87px;
+      font-size: 18pt;
+    }
+      @media only screen and(min-width:768px){
+        transform: rotate(-90deg);
+        width: 160px;
+        margin-top: 65px;
+        margin-left: -60px;
+      }
+      &:hover{
+        cursor: pointer;
+      }
+  }
+  .contact__content{
+    border: none;
+    background: #fff;
+    box-shadow: 2px 2px 5px grey;
+    width: 98%;
+    overflow: hidden;
+    margin: 0 auto;
+    @media only screen and(min-width:768px){
+      width: 500px;
+      padding-right: 20px;
+      padding-left: 20px;
+      margin-top: -96px;
+      margin-right: 0px;
+    }
+    .contact__title{
+      display: flex;
+      justify-content: space-between;
+        h1{
+          color: #7daaee;
+        }
+        button{
+          border: none;
+          background: #fff;
+          outline: none;
+          p{
+            transform: rotate(45deg);
+            font-size: 45px;
+            margin-top: -6px;
+            font-weight: 12;
+          }
+        }
+    }
+    .contact__input{
+      margin-bottom: 10px;
+      @media only screen and(min-width:768px){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .input__left,.input__right{
+         width: 100%;
+         @media only screen and(min-width:768px){
+           width: 48%;
+         }
+         input{
+          width: 100%;
+          background: #dee8f0;
+          height: 30px;
+          border: none;
+          margin-bottom: 10px;
+         }
+         .select{
+          overflow: hidden;
+          height: 30px;
+          background-color: #dee8f0;
+         
+         
+          margin-bottom: 10px;
+          select{
+            width: 105%;
+            height: 30px;
+            border: none;
+            margin-bottom: 10px;
+            /* background: transparent; */
+            /* background-color: #dee8f0; */
+            background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 92% 0;
+           }
+         }
+         textarea{
+          margin-bottom: 10px;
+          background: #dee8f0;
+          width: 100%;
+          height:110px;
+          border: none;
+         }
+
+      }
+
+    
+    }
+    .contact__submit{
+         
+            border: none;
+            width: 20%;
+            height: 40px;
+          margin-bottom: 20px;
+            outline: none;
+          
+    }
+  }
+}
+//phan css cho chuyển động
+// .display__top{animation: display__top 2s forwards;}
+//   @-webkit-keyframes display__top{
+//     from{
+//     right:-555px;
+   
+//   }
+//   to{
+//    right:0px;
+    
+//   }
+// }
+.display__top{
+  @media only screen and(min-width:768px){
+    transition: right 2s ease;
+    right: 40px;
+  }
+  
+  @media only screen and(max-width:767px){
+    transition: bottom 2s ease;
+    bottom: 0px;
+  }
+}
+// .hidden__top{
+//   @media only screen and(min-width:768px){
+//     transition: right 2s ease;
+//     right: -555px;
+//   }
+//   @media only screen and(max-width:767px){
+//     transition: bottom 2s ease;
+//     bottom: -583px;
+//   }
+// }
+// .display__bottom{
+//   transition: bottom 2s ease;
+//   bottom: 0px;
+// }
+// .hidden__bottom{
+//   transition: bottom 2s ease;
+//   bottom: -360px;
+
+// }
+// .hidden__top{animation: hidden__top 2s forwards;}
+// @-webkit-keyframes hidden__top{
+//   from{
+//     right:0px;
+//   }
+//   to{
+//     right:-555px;
+//   }
+// }
+
+// .display__bottom{animation: display__bottom 2s forwards;}
+//   @-webkit-keyframes display__bottom{
+//     from{
+//    bottom: -360px;
+   
+//   }
+//   to{
+//    bottom: 0px;
+//    overflow-y: scroll;
+//   }
+// }
+
+// .hidden__bottom{animation: hidden__bottom 2s forwards;}
+// @-webkit-keyframes hidden__bottom{
+//   from{
+//     bottom: 0px;
+//     overflow-y: scroll;
+//   }
+//   to{
+//     bottom: -360px;
+//   }
+// }
+
+
